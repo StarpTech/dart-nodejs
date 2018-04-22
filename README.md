@@ -16,7 +16,7 @@ Dart for server-side
 ## Features
 
 - Multithreading support by [isolates](http://jpryan.me/dartbyexample/examples/isolates/):
-  > Imagine Web-Workers on server-side
+  > Isolates communicate by passing messages over channels, which is similar to actors in Erlang or web workers in JavaScript.
 - Smother async error handling and debugging by the concept of zones.
 - Simple and robust [streaming api](https://www.dartlang.org/tutorials/language/streams) 
 - Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
@@ -40,6 +40,8 @@ Dart for server-side
 * Type inference
 * Generics
 * __OOP language with classes and mixin-based inheritance__
+* Dart use AOT (Ahead Of Time) as well as JIT (Just In Time) compiling techniques. Great article [here](https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf)
+* It's an [ECMA-408](https://www.ecma-international.org/publications/standards/Ecma-408.htm) standard.
 * ...
 
 ## Common gotchas
