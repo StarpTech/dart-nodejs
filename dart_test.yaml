@@ -1,0 +1,5 @@
+# This package's tests are very slow. Double the default timeout.
+timeout: 2x
+
+# This is a vm-only package, so test on chrome by default.
+platforms: [vm]
