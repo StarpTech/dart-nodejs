@@ -35,6 +35,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 * Null-Aware Operators
 * Ranges
 * typedefs
+* cascade operator (..)
 * ...
 
 ### Language characteristics:
