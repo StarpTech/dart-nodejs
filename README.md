@@ -25,6 +25,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - [Async](https://www.dartlang.org/guides/language/language-tour#lazily-loading-a-library) module loading
 - Reduce startup times by using [snapshots](https://github.com/dart-lang/sdk/wiki/Snapshots)
   > Known as `app-jit` snapshots
+- Dart transpiles to JavaScript.
 
 ## Language
 
@@ -52,6 +53,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - Language syntax and concepts are very similiar (Single-threaded, Event-loop, async/await, error-handling try/catch...)
 - Use [Futures](https://api.dartlang.org/dev/dart-async/dart-async-library.html) as companion compared to Promises
 - Has it's own registry like NPM called https://pub.dartlang.org/
+- Dart compiles to ARM and x86 code
 
 ## Interop
 
@@ -67,7 +69,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 
 # My first conclusion
 
-> If you don't use Node.Js for isomorphic applications and if you don't rely heavily on other javascript libraries use Dart it will boost your productivity to [Over 5000](https://www.youtube.com/watch?v=j_gpe2-oaB0) but you can still apply many concepts from Javascript, Node.Js like Classes, Mixed Inheritance, Event-Loop, Promises akka Futures, Async/Await, try/catch, Streams...
+> If you don't use Node.Js for isomorphic applications and if you don't rely heavily on other javascript libraries use Dart it will boost your productivity to [Over 5000](https://www.youtube.com/watch?v=j_gpe2-oaB0) but you can still apply many concepts from Node.Js like Classes(ES6), Mixed Inheritance, Event-Loop, Promises(Futures), Async/Await, try/catch, Streams...
 
 # Demo
 
