@@ -33,7 +33,6 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 * On-catch
 * Sync-iterators
 * Null-Aware Operators
-* Zones
 * Ranges
 * typedefs
 * ...
