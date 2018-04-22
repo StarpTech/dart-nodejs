@@ -1,5 +1,5 @@
 # dart-nodejs
-Evaluate Dart in comparison to Node.js as server-side programming language to develop 
+Evaluate Dart as an alternative to Node.js for server-side development. This repository should serve as rough outline about the differences and similarities to Node.js.
 
 # Dart
 
