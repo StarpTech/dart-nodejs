@@ -65,6 +65,10 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - Travis support
 - Google provides docker images [here](https://github.com/dart-lang/dart_docker)
 
+# My first conclusion
+
+> If you don't use Node.Js for isomorphic applications and if you don't rely heavily on other javascript libraries use Dart it will boost your productivity to [Over 5000](https://www.youtube.com/watch?v=j_gpe2-oaB0).
+
 # Demo
 
 ## Installation
