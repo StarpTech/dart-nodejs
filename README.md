@@ -34,11 +34,11 @@ Dart for server-side
 * typedefs
 * ...
 
-### Langauge characteristics:
+### Language characteristics:
 * Strongly typed
 * Type inference
 * Generics
-* OOP language with classes and mixin-based inheritance
+* __OOP language with classes and mixin-based inheritance__
 * ...
 
 ## Common gotchas
