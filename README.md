@@ -1,5 +1,5 @@
 # dart-nodejs
-Dart for server-side
+Evaluate Dart in comparison to Node.js as server-side programming language to develop 
 
 # Dart
 
@@ -12,6 +12,7 @@ Dart for server-side
 - Opinionated formatting like Go or Prettier called ["dartfmt"](https://github.com/dart-lang/dart_style).
 - Built in [linter](https://www.dartlang.org/guides/language/analysis-options).
 - [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
+- Code completion, GoTo, Find References, Renaming ...
 
 ## Unique features
 
@@ -42,13 +43,13 @@ Dart for server-side
 * Type inference
 * Generics
 * __OOP language with classes and mixin-based inheritance__
-* Dart use AOT (Ahead Of Time) as well as JIT (Just In Time) compiling techniques. Great article [here](https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf)
-* It's an [ECMA-408](https://www.ecma-international.org/publications/standards/Ecma-408.htm) standard.
+* Dart use AOT (Ahead Of Time) as well as JIT (Just In Time) compiling techniques. Read the great article [Why Flutter Uses Dart](https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf)
+* It's an [ECMA-408](https://www.ecma-international.org/publications/standards/Ecma-408.htm) standard
 * ...
 
 ## Common gotchas
 
-- Language syntax and concepts are very similiar (Single-threaded, Event-loop, async/await, Generators, error-handling try/catch...)
+- Language syntax and concepts are very similiar (Single-threaded, Event-loop, async/await, error-handling try/catch...)
 - Use [Futures](https://api.dartlang.org/dev/dart-async/dart-async-library.html) as companion compared to Promises 
 
 ## Interop
@@ -58,7 +59,7 @@ Dart for server-side
 
 ## Miscellaneous
 - Backed by Google like V8.
-- Battled tested by Google and [many](https://www.dartlang.org/community/who-uses-dart) other companies.
+- Battled tested by Google and [many](https://www.dartlang.org/community/who-uses-dart) other companies
 - Faster as V8
 - Travis support
 
