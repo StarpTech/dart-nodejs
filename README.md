@@ -70,20 +70,16 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 1. [Install](https://www.dartlang.org/install) DartVM
 2. Run `pub get`
 
-## Run tests
+## Commands
 
 ```
+# Run tests
 pub run test ./test/test.dart
-```
-
-## Run benchmark
-
-```
+# Run benchmarks
 dart ./benchmark/benchmark.dart
-```
 
-## Install a package
-
-```
+# Install a package
 pub get $name
+# Install a package as executable
+pub global activate stagehand
 ```
