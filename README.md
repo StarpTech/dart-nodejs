@@ -14,6 +14,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
 - Code completion, GoTo, Find References, Renaming ...
 - Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
+- Built in profiling tool shipped with the SDK [observatory](https://dart-lang.github.io/observatory/).
 
 ## Unique features
 
@@ -82,4 +83,6 @@ dart ./benchmark/benchmark.dart
 pub get $name
 # Install a package as executable
 pub global activate stagehand
+# Run profiler
+dart --observe .\main.dart
 ```
