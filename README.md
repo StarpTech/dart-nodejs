@@ -13,6 +13,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - Built in [linter](https://www.dartlang.org/guides/language/analysis-options).
 - [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
 - Code completion, GoTo, Find References, Renaming ...
+- Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
 
 ## Unique features
 
@@ -20,9 +21,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
   > Isolates communicate by passing messages over channels, which is similar to actors in Erlang or web workers in JavaScript.
 - Smother async error handling and debugging by the concept of zones.
 - Simple and robust [streaming api](https://www.dartlang.org/tutorials/language/streams) 
-- Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
 - [Async](https://www.dartlang.org/guides/language/language-tour#lazily-loading-a-library) module loading
-- Has it's own registry like NPM called https://pub.dartlang.org/
 - Reduce startup times by using [snapshots](https://github.com/dart-lang/sdk/wiki/Snapshots)
   > Known as `app-jit` snapshots
 
@@ -50,7 +49,8 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 ## Common gotchas
 
 - Language syntax and concepts are very similiar (Single-threaded, Event-loop, async/await, error-handling try/catch...)
-- Use [Futures](https://api.dartlang.org/dev/dart-async/dart-async-library.html) as companion compared to Promises 
+- Use [Futures](https://api.dartlang.org/dev/dart-async/dart-async-library.html) as companion compared to Promises
+- Has it's own registry like NPM called https://pub.dartlang.org/
 
 ## Interop
 
