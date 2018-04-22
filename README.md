@@ -11,6 +11,7 @@ Dart for server-side
 - Full vscode [support](https://dartcode.org/).
 - Opinionated formatting like Go or Prettier called ["dartfmt"](https://github.com/dart-lang/dart_style).
 - Built in [linter](https://www.dartlang.org/guides/language/analysis-options).
+- [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
 
 ## Features
 
