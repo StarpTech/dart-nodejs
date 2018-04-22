@@ -72,7 +72,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 
 ## Commands
 
-```
+```bash
 # Run tests
 pub run test ./test/test.dart
 # Run benchmarks
