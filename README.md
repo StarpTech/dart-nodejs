@@ -13,7 +13,7 @@ Dart for server-side
 - Built in [linter](https://www.dartlang.org/guides/language/analysis-options).
 - [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
 
-## Features
+## Unique features
 
 - Multithreading support by [isolates](http://jpryan.me/dartbyexample/examples/isolates/):
   > Isolates communicate by passing messages over channels, which is similar to actors in Erlang or web workers in JavaScript.
@@ -22,6 +22,8 @@ Dart for server-side
 - Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
 - [Async](https://www.dartlang.org/guides/language/language-tour#lazily-loading-a-library) module loading
 - Has it's own registry like NPM called https://pub.dartlang.org/
+- Reduce startup times by using [snapshots](https://github.com/dart-lang/sdk/wiki/Snapshots)
+  > Known as `app-jit` snapshots
 
 ## Language
 
