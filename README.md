@@ -9,7 +9,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - Standard lib is shipped as SDK and written in Dart itself. We can debug the whole stack by pressing "F12". In Node.js the standard lib is embedded with the binary.
 - Provide [`pub`](https://github.com/dart-lang/pub) a package manager like `NPM`.
 - Full vscode [support](https://dartcode.org/).
-- Opinionated formatting like Go or Prettier called ["dartfmt"](https://github.com/dart-lang/dart_style).
+- Opinionated formatting like gofmt or prettier called ["dartfmt"](https://github.com/dart-lang/dart_style).
 - Built in [linter](https://www.dartlang.org/guides/language/analysis-options).
 - [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
 - Code completion, GoTo, Find References, Renaming ...
