@@ -26,6 +26,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - Reduce startup times by using [snapshots](https://github.com/dart-lang/sdk/wiki/Snapshots)
   > Known as `app-jit` snapshots
 - Dart transpiles to JavaScript.
+- Build native Android and IO's apps in record time with [flutter](https://flutter.io/)
 
 ## Language
 
