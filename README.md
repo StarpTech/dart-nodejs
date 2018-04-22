@@ -67,7 +67,7 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 
 # My first conclusion
 
-> If you don't use Node.Js for isomorphic applications and if you don't rely heavily on other javascript libraries use Dart it will boost your productivity to [Over 5000](https://www.youtube.com/watch?v=j_gpe2-oaB0).
+> If you don't use Node.Js for isomorphic applications and if you don't rely heavily on other javascript libraries use Dart it will boost your productivity to [Over 5000](https://www.youtube.com/watch?v=j_gpe2-oaB0) but you can still apply many concepts from Javascript, Node.Js like Classes, Mixed Inheritance, Event-Loop, Promises akka Futures, Async/Await, try/catch, Streams...
 
 # Demo
 
