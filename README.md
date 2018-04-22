@@ -20,10 +20,11 @@ Dart for server-side
 - Simple and robust [streaming api](https://www.dartlang.org/tutorials/language/streams) 
 - Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
 - [Async](https://www.dartlang.org/guides/language/language-tour#lazily-loading-a-library) module loading
+- Has it's own registry like NPM called https://pub.dartlang.org/
 
 ## Language
 
-Modern language features like:
+### Modern language features like:
 * Async-iterators
 * On-catch
 * Sync-iterators
@@ -33,7 +34,7 @@ Modern language features like:
 * typedefs
 * ...
 
-Langauge characteristics:
+### Langauge characteristics:
 * Strongly typed
 * Type inference
 * Generics
