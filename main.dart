@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'lib/test.dart' show Awesome;
 
 const Duration delay = const Duration(milliseconds: 200);
 
@@ -10,11 +11,15 @@ main() async {
   list[2] = 'c';
   print(list);
 
+  var a = new Awesome();
+  print(a.isAwesome);
+
   Future<String> loadLastName(String firstName) {
     return new Future.delayed(delay).then((_) {
       return firstName + 'son';
     });
   }
 
-  await loadLastName('greg');
+  var result = await loadLastName('greg');
+  print(result);
 }
