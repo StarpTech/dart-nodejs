@@ -85,11 +85,14 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 pub run test ./test/test.dart
 # Run benchmarks
 dart ./benchmark/benchmark.dart
-
 # Install a package
 pub get $name
 # Install a package as executable
 pub global activate stagehand
 # Run profiler
 dart --observe .\main.dart
+# Compile to JS
+dart2js .\main.dart
+# Create app snapshot
+dart --snapshot=main.dart.snapshot main.dart
 ```
