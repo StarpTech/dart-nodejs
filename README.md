@@ -59,7 +59,6 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 ## Interop
 
 - Dart can be compiled to Javascript with [dart2js](https://webdev.dartlang.org/tools/dart2js)
-- Dart can use Node.js as target
 
 ## Miscellaneous
 - Backed by Google like V8.
