@@ -10,7 +10,6 @@ Evaluate Dart as an alternative to Node.js for server-side development. This rep
 - Provide [`pub`](https://github.com/dart-lang/pub) a package manager like `NPM`.
 - Full vscode [support](https://dartcode.org/).
 - Opinionated formatting like gofmt or prettier called ["dartfmt"](https://github.com/dart-lang/dart_style).
-- Built in [linter](https://www.dartlang.org/guides/language/analysis-options).
 - [Dartdocs](http://www.dartdocs.org/) Automated documentation generation for Pub packages.
 - Code completion, GoTo, Find References, Renaming ...
 - Great tools for [testing](https://www.dartlang.org/guides/testing), [benchmarking](https://www.dartlang.org/articles/dart-vm/benchmarking) and [mocking](https://github.com/dart-lang/mockito).
